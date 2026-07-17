@@ -1,0 +1,9 @@
+{
+  "name": "Titanium Gestão",
+  "short_name": "Titanium",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090b0f",
+  "theme_color": "#b3132b",
+  "description": "Check-in, fila e gestão para a Titanium Barbearia"
+}

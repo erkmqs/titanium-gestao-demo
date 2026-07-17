@@ -1,0 +1,34 @@
+{
+  "name": "titanium-gestao-demo",
+  "version": "3.0.0",
+  "private": true,
+  "description": "MVP demonstrativo da Titanium Barbearia para Vercel, sem banco e sem persistência de dados",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "dependencies": {
+    "lucide-react": "^1.24.0",
+    "next": "^16.2.10",
+    "qrcode": "^1.5.4",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.8.3"
+  },
+  "overrides": {
+    "next": {
+      "postcss": "8.5.10"
+    }
+  }
+}
